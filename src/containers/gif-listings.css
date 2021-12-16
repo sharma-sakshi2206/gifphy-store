@@ -1,0 +1,83 @@
+.gif-listingd__gifs {
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+.gif-listingd__gif {
+    padding: 0.5rem;
+}
+
+.container-grid {
+    text-align: center;
+}
+
+.gif-listings__header {
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.gif-search__input {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 40%;
+    background: #f1f1f1;
+    border-radius: 0.4rem 0 0 0.4rem;
+}
+
+.gif-search_search-button {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-radius: 0 0.4rem 0.4rem 0;
+    background: palegreen;
+}
+
+.gif-toggle {
+    border-radius: 0.4rem;
+    font-family: cursive;
+    font-size: 1rem;
+    float: right;
+    margin: 1rem;
+}
+
+.gif-play-pause {
+    position: absolute;
+    color: grey;
+    background: white;
+    border-radius: 0.6rem;
+}
+
+.container {
+    position: relative;
+  }
+  
+  .gif-image {
+    display: block;
+    transition: .5s ease;
+  }
+  
+  .play-pause-icon-container {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+  }
+  
+  .container:hover .gif-image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .play-pause-icon-container {
+    opacity: 1;
+  }
+  
+  .gif-play-pause {
+    background-color: white;
+    color: white;
+    font-size: 3rem;
+    padding: 0.1rem;
+  }
